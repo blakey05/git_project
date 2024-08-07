@@ -1,1 +1,1 @@
-console.log(This is a random message generator);
+console.log('This is a random message generator');
