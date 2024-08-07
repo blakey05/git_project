@@ -1,1 +1,1 @@
-This is a project where I will use git and JavaScript to build a random message generator on GitHub.
+This is a Project where I used Git, GitHub and JavaScript to build a random Inspriational Messenger.
