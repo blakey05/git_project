@@ -22,3 +22,16 @@ const data3 = [ "I am lucky that whatever fear I have inside me, my desire to wi
 // stores all 3 arrays
 const messages = [data1, data2, data3];
 
+// function for getting the Message of the day.
+const messageOfTheDay = messages => {
+    // selects random array
+    const randomArrayIndex = Math.floor(Math.random() * messages.length);
+    const selectedMessage = messages[randomArrayIndex];
+    // selects a random element from the selected array
+    const randomElementIndex = Math.floor(Math.random() * selectedMessage.length);
+    const selectedElement = selectedMessage[randomElementIndex];
+
+    return `Message of the day: ${selectedElement}`
+};
+
+console.log(messageOfTheDay(messages));
